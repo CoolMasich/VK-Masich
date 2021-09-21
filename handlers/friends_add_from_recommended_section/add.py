@@ -16,7 +16,7 @@ if len(humans) > 0:
             "user_id": humans[i]["id"]
         }).json()
         if "response" in data:
-            print(f"[pink]id{humans[i]['id']}[/pink]: Добавил")
+            print(f"[blue]id{humans[i]['id']}[/blue]: Добавил")
         elif "error" in data:
             if data['error']["error_code"] == 14:
                 captcha_sid = data['error']["captcha_sid"]
