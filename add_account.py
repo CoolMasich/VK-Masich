@@ -18,7 +18,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS accounts(
 )''')
 conn.commit()
 
-token = input("Введите токен: ")
+token = input("ca79dc8ed59278c81e03eeb72167ca7d513a0b9e029c350cf5de6c5c42b22ef0a3b751b330a9ca35add33")
 
 
 info = requests.get('https://api.vk.com/method/users.get', params={
